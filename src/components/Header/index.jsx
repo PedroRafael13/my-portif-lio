@@ -1,8 +1,10 @@
+import Logo from '../../assets/Logotipo.png.png'
+
 function Header(){
   return(
-    <>
-      <h1>SDACFCFA</h1>
-    </>
+    <div>
+      <img src={Logo} alt="logo-pedro" style={{width: 500}} />
+    </div>
   )
 }
 
