@@ -12,7 +12,7 @@ function Router(){
           <Route path="/" element={<Home />} />
           <Route path="/AboutMe" element={<AboutMe />} />
           <Route path="/Project" element={<Project />} />
-          <Route path="/Skiils" element={<Skiils />} />
+          <Route path="/Skills" element={<Skiils />} />
       </Route>  
     </Routes>
   )
