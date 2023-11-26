@@ -15,7 +15,7 @@ const { pathname } = useLocation()
             </Li>
 
             <Li isActive={pathname.includes('/AboutMe')}>
-              <Link to='/AboutMe' >Aboute Me</Link>
+              <Link to='/AboutMe' >About Me</Link>
             </Li>
 
             <Li isActive={pathname.includes('/Project')}>

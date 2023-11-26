@@ -41,6 +41,9 @@ export const Infor = styled.div`
 export const Poster = styled.div`
   z-index:2;
   img{
-    width: 400px;
+    width: 100%;
+    display: flex;
+    justify-content:center;
+    align-items:center;
   }
 `
