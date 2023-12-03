@@ -17,16 +17,7 @@ export const Infor = styled.div`
   h1{
     font-size: 5rem;
     font-weight:700;
-    color: #492325;
-  }
-
-  h2{
-    font-size: 5rem;
-    color:  #983821;
-  }
-
-  span{
-    color: #FCFCFC;
+    color:  #FCFCFC;
   }
 
   p{
