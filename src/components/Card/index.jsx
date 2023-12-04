@@ -1,4 +1,4 @@
-import {Container, Button} from "./style"
+import { Container, Button } from "./style"
 
 function Card({name, description, url, language}){
   return(
@@ -7,7 +7,7 @@ function Card({name, description, url, language}){
       <p>{description}</p>
       <p>{language}</p>
       <Button>
-        
+
       </Button>
     </Container>
   )
