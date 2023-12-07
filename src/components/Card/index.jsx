@@ -1,14 +1,14 @@
 import { Link } from "react-router-dom"
-import { Container, link } from "./style"
+import { Container,} from "./style"
 import { FaArrowRight } from "react-icons/fa";
 
-function Card({name, description, html_url, language}){
+function Card({name, full_name, html_url, language}){
   return(
     <Container>
       <h1>{name}</h1>
-      <p>{description}</p>
       <p>{language}</p>
-      <Link to={html_url} className={style.link} >
+      <p>{full_name}</p>
+      <Link to={html_url}>
         <FaArrowRight />
       </Link>
     </Container>

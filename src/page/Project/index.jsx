@@ -24,7 +24,7 @@ function Project(){
         repositories.length > 0 ? (
 
           repositories.slice(0,4).map((repo) => (
-            <Card key={repo.id} name={repo.name} description={repo.description} language={repo.language} html_url={repo.html_url} />
+            <Card key={repo.id} name={repo.name} full_name={repo.full_name} language={repo.language} html_url={repo.html_url} />
           ))
         ) : (
           <p>Carregando....</p>

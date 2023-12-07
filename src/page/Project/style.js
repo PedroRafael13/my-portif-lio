@@ -1,4 +1,13 @@
-import styled from "styled-components"
+import styled, {keyframes} from "styled-components"
+
+const scale = keyframes`
+  from{
+    transform: scale(0);
+  } 
+  to{
+    transform:scale(1);
+  }
+`
 
 export const H1 = styled.h1`
   display: flex;
@@ -18,4 +27,5 @@ export const Container = styled.div`
     justify-content: center;
     gap: 1.5rem;
     margin-block: 1rem;
+    animation:${scale} 0.5s linear
 `

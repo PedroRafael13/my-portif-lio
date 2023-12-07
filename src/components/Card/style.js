@@ -13,3 +13,5 @@ export const Container = styled.div`
     align-items: center;
     justify-content: space-between;
 `
+
+export const Link = styled.div``
