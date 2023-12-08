@@ -12,6 +12,15 @@ export const Container = styled.div`
   img{
     width: 20%;
   }
+
+  @media screen and (max-width: 600px) {
+    height: 50px;
+    width: 25%;
+    padding: 0px 0px;
+    min-height: 67px;
+
+    img:none;
+}
 `
 
 export const Menu = styled.ul`
@@ -48,3 +57,4 @@ export const Li = styled.li`
     width: 100%;
   }
 `
+

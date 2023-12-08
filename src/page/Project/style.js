@@ -17,6 +17,11 @@ export const H1 = styled.h1`
   font-weight:700;
   font-size: 30px;
   color: #F5E7CB;
+
+  @media (max-width: 1200px) {
+    width: 70%;
+    margin-left: 64px;
+  }
 `
 
 export const Container = styled.div`

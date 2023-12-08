@@ -1,32 +1,44 @@
-import styled  from "styled-components";
+import styled from "styled-components";
 
 export const Container = styled.div`
-  display:flex;
-  justify-content:center;
-  align-items:center;
-  height:100%;
-  max-width:1500px;
-  margin-top:100px ;
-`
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  max-width: 1500px;
+  margin-top: 100px;
+`;
 
 export const Infor = styled.div`
-  z-index:2;
-  padding:20px;
-  width:50%;
-  
-  h1{
+  z-index: 2;
+  padding: 20px;
+  width: 50%;
+
+  h1 {
     font-size: 5rem;
-    font-weight:700;
-    color:  #FCFCFC;
+    font-weight: 700;
+    color: #fcfcfc;
   }
 
-  p{
-    font-size:20px;
-    font-weight:500;
-    color:#F5E7CB;
-    margin-top:30px;
-    margin-bottom:20px;
+  p {
+    font-size: 20px;
+    font-weight: 500;
+    color: #f5e7cb;
+    margin-top: 30px;
+    margin-bottom: 20px;
   }
-`
 
-export const Poster = styled.div``
+  @media (max-width: 1200px) {
+    width: 70%;
+  }
+
+  @media (max-width: 768px) {
+    width: 80%;
+  }
+
+  @media (max-width: 480px) {
+    width: 90%;
+  }
+`;
+
+export const Poster = styled.div``;
